@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profil Pribadi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        scroll-behavior: smooth;
+      }
+      #about {
+        background: #f8f9fa;
+      }
+      #skills {
+        background: #e9ecef;
+      }
+      #contact {
+        background: #f8f9fa;
+      }
+      section {
+        padding: 60px 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">MyProfile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#skills">Keahlian</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero / Header -->
+    <header class="bg-light text-center text-dark py-5" style="margin-top: 56px;">
+      <div class="container">
+        <img src="../assets/j.jpg" class="rounded-circle mb-3" alt="Foto Profil">
+        <h1 class="fw-bold">Lintang Tiaraningrum</h1>
+        <p class="text-muted mb-1">Fakultas Ilmu Komputer</p>
+        <p class="text-muted mb-4">Teknik Informatika</p>
+        <p class="lead">Mahasiswa Esa Unggul</p>
+        <div class="d-flex justify-content-center mb-2">
+            <button type="button" class="btn btn-outline-primary ms-1">Tangerang</button>
+            <button type="button" class="btn btn-outline-primary ms-1">14 April 2025</button>
+      </div>
+    </header>
+
+    <!-- Tentang Saya -->
+    <section id="about">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Tentang Saya</h2>
+        <p class="fs-5">
+          Saya adalah seorang mahasiswa yang sedang menempuh pendidikan S1 di Universitas Esa Unggul. 
+          Saya memiliki minat untuk membuat website, desain UI/UX, dan belajar hal-hal baru seputar coding.
+        </p>
+      </div>
+    </section>
+
+    <!-- Keahlian -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="fw-bold text-center mb-4">Keahlian yang ingin Dipelajari</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">HTML & CSS</h5>
+                <p class="card-text">Mahir membuat struktur dan gaya tampilan web modern.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mt-md-0">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text">Mengerti dasar-dasar interaktivitas web dan DOM manipulation.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mt-md-0">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text">Terbiasa membuat tampilan web yang responsif dan rapi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Kontak</h2>
+        <p class="mb-1"><strong>Email:</strong> ltg.tiaraningrum@email.com</p>
+        <p class="mb-1"><strong>Instagram:</strong> @ltg_21</p>
+        <p><strong>Github:</strong> ltg-21</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+      <p class="mb-0">© 2025 Lintang Tiaraningrum.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
