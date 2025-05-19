@@ -12,7 +12,7 @@ class RolePermissionSeeder extends Seeder
     {
         // Buat permission untuk role user (registration)
         $registrationPermissions = Permission::whereIn('name', [
-            'view_registration', 'view_any_registration', 'create_registration', 
+            'view_registration', 'view_any_registration', 'create_registration', 'update_registration', 
             'view_verification', 'view_any_verification',
         ])->get();
 
