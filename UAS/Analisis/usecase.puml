@@ -1,0 +1,22 @@
+@startuml uas
+skinparam style strictuml
+left to right direction
+
+actor "Wali Santri" as User
+
+rectangle "Aplikasi Pendaftaran TPQ Al-Furqan" {
+  usecase "Lihat Info TPQ" as UC1
+  usecase "Lihat Testimoni" as UC2
+  usecase "Lihat Fakta TPQ" as UC3
+  usecase "Isi Form Pendaftaran" as UC4
+  usecase "Kirim Formulir" as UC5
+  usecase "Lihat Kontak Sosial Media" as UC6
+}
+
+User --> UC1
+User --> UC2
+User --> UC3
+User --> UC4
+User --> UC5
+User --> UC6
+@enduml
